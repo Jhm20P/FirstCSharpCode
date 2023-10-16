@@ -25,23 +25,23 @@ int jeong3 = 98;
 int jeong4 = 100;
 int jeong5 = 97;
 
+Console.WriteLine($"Student\t\tGrade");
+int totalSophiaGrade = sophia1 + sophia2 + sophia3 + sophia4 + sophia5;
+double averageSophiaGrade = (double)totalSophiaGrade / currentAssignments;
+Console.WriteLine($"Sophia scored:\t\t{averageSophiaGrade}\tA");
 
-double totalSophiaGrade = sophia1 + sophia2 + sophia3 + sophia4 + sophia5;
-double averageSophiarade = totalSophiaGrade / currentAssignments;
-Console.WriteLine("This is the average grade for the Sophia: " + averageSophiarade);
+int totalNicolasGrade = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
+double averageNicolasGrade = (double)totalNicolasGrade / currentAssignments;
+Console.WriteLine($"Nicolas scored:\t\t{averageNicolasGrade}\tB");
 
-double totalNicolasGrade = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
-double averageNicolasGrade = totalNicolasGrade / currentAssignments;
-Console.WriteLine("This is the average grade for Nicolas: " + averageNicolasGrade);
+int totalZahirahGrade = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
+double averageZahirahGrade = (double)totalZahirahGrade / currentAssignments;
+Console.WriteLine($"Zahirah scored:\t\t{averageZahirahGrade}\tB");
 
-double totalZahirahGrade = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
-double averageZahirahGrade = totalZahirahGrade / currentAssignments;
-Console.WriteLine("This is the average grade for Zahirah: " + averageZahirahGrade);
+int totalJeongGrade = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
+double averageJeongGrade = (double)totalJeongGrade / currentAssignments;
+Console.WriteLine($"Jeong scored:\t\t{averageJeongGrade}\tA");
 
-double totalJeongGrade = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
-double averageJeongGrade = totalJeongGrade / currentAssignments;
-Console.WriteLine("This is the average grade for jeong: " + averageJeongGrade);
-
-double totalGradeClass = totalJeongGrade + totalNicolasGrade + totalSophiaGrade + totalZahirahGrade;
-double averageGradeClass = totalGradeClass / (currentAssignments * 4);
-Console.WriteLine("This is the average grade for the class: " + averageGradeClass);
+int totalGradeClass = totalJeongGrade + totalNicolasGrade + totalSophiaGrade + totalZahirahGrade;
+double averageGradeClass = (double)totalGradeClass / (currentAssignments * 4);
+Console.WriteLine($"The class scored an average grade of:\t\t{averageGradeClass}\tB+");
